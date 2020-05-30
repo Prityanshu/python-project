@@ -1,0 +1,206 @@
+import sys,time,os
+width=61
+def sentence(s, times,space): 
+	line=s
+	timel=times
+
+	
+	for j in s: 
+		sys.stdout.write(line)
+		sys.stdout.flush() 
+		time.sleep(timel)
+	width=space
+sentence("hii", 0.01,0)
+message=("I am not afraid\n".rjust(width)) 
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush() 
+	time.sleep(0.01)
+width=60
+message=("Yeah\n".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.001)
+width=33
+message=("I am not afraid\n".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+print("") 
+width=61
+message=("To take a stand\n".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+width=60
+message=("it's been a ride\n".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+width=39
+message=("To take a stand\n".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+print("")
+width=61
+message=("Everybody\n".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+width=60
+message=("I guess I had to\n".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+width=39
+message=("Everybody\n".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+width=60
+message=("Come take my aim".rjust(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+width=83
+message=("|Go to that place|\n 	       	 	|To get to this one|".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+print("")
+width=100
+message=("NOW SOME OF YOU\n          	Might still be in that place".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+print("")
+message=("|If")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.5)
+message=(" you are tryin to get out\n")
+for char in  message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.01)
+width=63
+message=("Just follow me\n".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.06)					
+width=45
+message=("I'll get you there.|\n".center(width))
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.02)
+print("")
+message=("\nYou can try and read my lyrics off of this paper before I\nlay 'em\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nBut you won't take the sting out these words before I say\n'em\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nCause ain't no way I'm a let you stop me from causin' mayhem\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nWhen I say I'm a do somethin' I do it\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nI don't give a damn what you think\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nI'm doin' this for me, so f*#k the world, feed it beans\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nIt's gassed up, if it thinks it's stoppin' me\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nI'mma be what I set out to be, without a doubt undoubtedly\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nAnd all those who look down on me, I'm tearin' down your \nbalcony\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nNo if, ands or buts, don't try to ask him why or how can he\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nFrom |Infinite| down to the last |Relapse| album he's\nstill shittin'\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nWhether he's on salary, paid hourly, until he bows out or he shits his bowels out of him\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nWhichever comes first, for BETTER or WORSE\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.04)
+message=("\nHe's married to the game, like a f*#k you for Christmas\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nHis gift is a curse, forget the Earth, he's got the urge to pull his dick from the dirt\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+message=("\nAnd f*#k the whole universe:)\n")
+for char in message:
+	sys.stdout.write(char)
+	sys.stdout.flush()
+	time.sleep(0.05)
+#message=("\n")
+#for char in message:
+#	sys.stdout.write(char)
+#	sys.stdout.flush()
+#	time.sleep(0.01)
+#message=("\n")
+#for char in message:
+#	sys.stdout.write(char)
+#	sys.stdout.flush()
+#	time.sleep(0.01)
+#message=("\n")
+#for char in message:
+#	sys.stdout.write(char)
+#	sys.stdout.flush()
+#	time.sleep(0.01)
